@@ -6,7 +6,7 @@
 {"instance_id": "bq003", "condition_cols": [1, 2], "ignore_order": true, "toks": "113"}
 {"instance_id": "bq004", "condition_cols": [], "ignore_order": false, "toks": "69"}
 {"instance_id": "bq008", "condition_cols": [], "ignore_order": false, "toks": "190"}
-{"instance_id": "bq269", "condition_cols": [[1, 2], [3]], "ignore_order": true, "toks": "91"}
+{"instance_id": "bq269", "condition_cols": [[1, 2], [3]], "ignore_order": false, "toks": "91"}
 {"instance_id": "bq268", "condition_cols": [], "ignore_order": false, "toks": "177"}
 {"instance_id": "bq270", "condition_cols": [], "ignore_order": false, "toks": "135"}
 {"instance_id": "bq275", "condition_cols": [], "ignore_order": true, "toks": "110"}
@@ -94,7 +94,7 @@
 {"instance_id": "sf_bq429", "condition_cols": [], "ignore_order": false, "toks": "131"}
 {"instance_id": "sf_bq073", "condition_cols": [], "ignore_order": false, "toks": "131"}
 {"instance_id": "sf_bq410", "condition_cols": [1, 2, 3], "ignore_order": false, "toks": "143"}
-{"instance_id": "sf_bq348", "condition_cols": [], "ignore_order": true, "toks": "95"}
+{"instance_id": "sf_bq348", "condition_cols": [], "ignore_order": false, "toks": "95"}
 {"instance_id": "sf_bq253", "condition_cols": [], "ignore_order": false, "toks": "109"}
 {"instance_id": "sf_bq254", "condition_cols": [], "ignore_order": true, "toks": "124"}
 {"instance_id": "sf_bq056", "condition_cols": [], "ignore_order": false, "toks": "265"}
@@ -174,7 +174,7 @@
 {"instance_id": "bq085", "condition_cols": [1, 2], "ignore_order": true, "toks": "92"}
 {"instance_id": "bq130", "condition_cols": [], "ignore_order": true, "toks": "220"}
 {"instance_id": "bq087", "condition_cols": [2], "ignore_order": false, "toks": "91"}
-{"instance_id": "bq088", "condition_cols": [[0, 1, 2, 3, 4, 5], [0, 1, 2], [0, 1, 2, 3], [0, 1, 2, 3]], "ignore_order": true, "toks": "74"}
+{"instance_id": "bq088", "condition_cols": [[0, 1, 2, 3, 4, 5], [0, 1, 2], [0, 1, 2, 3]], "ignore_order": true, "toks": "74"}
 {"instance_id": "bq089", "condition_cols": [4], "ignore_order": true, "toks": "75"}
 {"instance_id": "bq407", "condition_cols": [0, 2, 3, 4, 5, 6], "ignore_order": false, "toks": "82"}
 {"instance_id": "bq137", "condition_cols": [1, 5, 6, 7, 8, 9], "ignore_order": true, "toks": "61"}
@@ -192,7 +192,7 @@
 {"instance_id": "bq112", "condition_cols": [], "ignore_order": false, "toks": "204"}
 {"instance_id": "bq055", "condition_cols": [], "ignore_order": false, "toks": "200"}
 {"instance_id": "bq075", "condition_cols": [1, 2, 3, 4, 5, 6], "ignore_order": true, "toks": "120"}
-{"instance_id": "bq406", "condition_cols": [[0, 1, 2, 3, 4, 5, 6, 7, 8], [0], [0, 1, 2, 3, 4, 5, 6, 7, 8], [0]], "ignore_order": false, "toks": "99"}
+{"instance_id": "bq406", "condition_cols": [[0, 1, 2, 3, 4, 5, 6, 7, 8], [0]], "ignore_order": false, "toks": "99"}
 {"instance_id": "sf_bq084", "condition_cols": [], "ignore_order": true, "toks": "92"}
 {"instance_id": "sf_bq058", "condition_cols": [], "ignore_order": true, "toks": "63"}
 {"instance_id": "sf_bq416", "condition_cols": [], "ignore_order": false, "toks": "204"}
@@ -206,7 +206,7 @@
 {"instance_id": "bq363", "condition_cols": [1, 2], "ignore_order": true, "toks": "91"}
 {"instance_id": "bq076", "condition_cols": [], "ignore_order": false, "toks": "54"}
 {"instance_id": "bq077", "condition_cols": [1], "ignore_order": true, "toks": "53"}
-{"instance_id": "bq350", "condition_cols": [0, 2, 3], "ignore_order": true, "toks": "47"}
+{"instance_id": "bq350", "condition_cols": [], "ignore_order": true, "toks": "47"}
 {"instance_id": "bq379", "condition_cols": [], "ignore_order": false, "toks": "64"}
 {"instance_id": "bq078", "condition_cols": [2], "ignore_order": false, "toks": "45"}
 {"instance_id": "bq095", "condition_cols": [], "ignore_order": true, "toks": "37"}
@@ -312,7 +312,7 @@
 {"instance_id": "bq452", "condition_cols": [], "ignore_order": true, "toks": "238"}
 {"instance_id": "bq453", "condition_cols": [], "ignore_order": true, "toks": "289"}
 {"instance_id": "bq454", "condition_cols": [4], "ignore_order": true, "toks": "144"}
-{"instance_id": "sf_bq415", "condition_cols": [0], "ignore_order": true, "toks": "64"}
+{"instance_id": "sf_bq415", "condition_cols": [0], "ignore_order": false, "toks": "64"}
 {"instance_id": "bq279", "condition_cols": [], "ignore_order": false, "toks": "168"}
 {"instance_id": "bq281", "condition_cols": [], "ignore_order": false, "toks": "52"}
 {"instance_id": "bq282", "condition_cols": [], "ignore_order": false, "toks": "70"}
@@ -341,7 +341,7 @@
 {"instance_id": "bq418", "condition_cols": [1, 2, 3, 4], "ignore_order": true, "toks": "403"}
 {"instance_id": "bq330", "condition_cols": [], "ignore_order": false, "toks": "135"}
 {"instance_id": "bq398", "condition_cols": [], "ignore_order": false, "toks": "70"}
-{"instance_id": "bq399", "condition_cols": [2], "ignore_order": true, "toks": "103"}
+{"instance_id": "bq399", "condition_cols": [1, 2], "ignore_order": true, "toks": "103"}
 {"instance_id": "bq457", "condition_cols": [], "ignore_order": true, "toks": "723"}
 {"instance_id": "bq227", "condition_cols": [], "ignore_order": true, "toks": "203"}
 {"instance_id": "bq232", "condition_cols": [], "ignore_order": false, "toks": "78"}
@@ -396,21 +396,21 @@
 {"instance_id": "local003", "condition_cols": [1], "ignore_order": true, "toks": "316"}
 {"instance_id": "local004", "condition_cols": [1, 2, 3], "ignore_order": true, "toks": "70"}
 {"instance_id": "local007", "condition_cols": [], "ignore_order": true, "toks": "110"}
-{"instance_id": "local008", "condition_cols": [2], "ignore_order": true, "toks": "120"}
+{"instance_id": "local008", "condition_cols": [0, 2], "ignore_order": true, "toks": "120"}
 {"instance_id": "local009", "condition_cols": [], "ignore_order": true, "toks": "185"}
 {"instance_id": "local010", "condition_cols": [], "ignore_order": true, "toks": "195"}
 {"instance_id": "local015", "condition_cols": [], "ignore_order": true, "toks": "176"}
 {"instance_id": "local017", "condition_cols": [], "ignore_order": true, "toks": "147"}
 {"instance_id": "local018", "condition_cols": [], "ignore_order": true, "toks": "142"}
 {"instance_id": "local019", "condition_cols": [], "ignore_order": true, "toks": "171"}
-{"instance_id": "local026", "condition_cols": [0, 1], "ignore_order": true, "toks": "145"}
+{"instance_id": "local026", "condition_cols": [1, 2, 3], "ignore_order": true, "toks": "145"}
 {"instance_id": "local020", "condition_cols": [], "ignore_order": false, "toks": "143"}
 {"instance_id": "local021", "condition_cols": [], "ignore_order": false, "toks": "94"}
 {"instance_id": "local022", "condition_cols": [], "ignore_order": true, "toks": "167"}
 {"instance_id": "local023", "condition_cols": [0, 2, 3], "ignore_order": false, "toks": "114"}
 {"instance_id": "local024", "condition_cols": [], "ignore_order": true, "toks": "86"}
 {"instance_id": "local025", "condition_cols": [], "ignore_order": false, "toks": "124"}
-{"instance_id": "local028", "condition_cols": [1, 2, 3], "ignore_order": true, "toks": "84"}
+{"instance_id": "local028", "condition_cols": [], "ignore_order": true, "toks": "84"}
 {"instance_id": "local031", "condition_cols": [], "ignore_order": true, "toks": "79"}
 {"instance_id": "local029", "condition_cols": [], "ignore_order": true, "toks": "53"}
 {"instance_id": "local030", "condition_cols": [], "ignore_order": true, "toks": "52"}
@@ -463,7 +463,7 @@
 {"instance_id": "local130", "condition_cols": [], "ignore_order": true, "toks": "152"}
 {"instance_id": "local131", "condition_cols": [], "ignore_order": true, "toks": "91"}
 {"instance_id": "local133", "condition_cols": [], "ignore_order": true, "toks": "109"}
-{"instance_id": "local132", "condition_cols": [], "ignore_order": true, "toks": "148"}
+{"instance_id": "local132", "condition_cols": [], "ignore_order": false, "toks": "148"}
 {"instance_id": "local141", "condition_cols": [0, 1, 5], "ignore_order": true, "toks": "82"}
 {"instance_id": "local152", "condition_cols": [0, 1, 2, 3, 4, 5, 6, 7, 8], "ignore_order": false, "toks": "187"}
 {"instance_id": "local230", "condition_cols": [], "ignore_order": true, "toks": "102"}

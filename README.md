@@ -2,6 +2,7 @@
 <p align="center">
   <a href="https://spider2-sql.github.io/">Website</a> •
   <a href="https://arxiv.org/abs/2411.07763">Paper</a> •
+  <a href="https://github.com/xlang-ai/Spider2/blob/main/spider2/README.md">Data</a> •
   <a href="https://docs.google.com/document/d/1a69mxO7m1nMndXp8H_-aggvYDbcbiS3rV9GPXEw-DeM/edit?usp=sharing">Data Update Log</a> •
   <a href="https://docs.google.com/document/d/1sCobAqJZcko-Vl3biOycwvCIR7kTwBPrhsgVfvaX1Fg/edit?usp=sharing">Submission Guidance</a>
 </p>
@@ -75,15 +76,6 @@ Notably, as shown below, even the most advanced LLMs, including GPT-4, solve onl
 | CodeS-15B       | 85.4           | -               | 59.3      | 0.7             | 0.0             |
 
 
-### Data
-
-The questions/instructions are in [spider2-lite.jsonl](https://github.com/xlang-ai/Spider2/blob/main/spider2-lite/spider2-lite.jsonl) and [spider2-snow.jsonl](https://github.com/xlang-ai/Spider2/blob/main/spider2-snow/spider2-snow.jsonl).
-
-We also release some gold SQLs to help users design prompts and methods, **note that we do not recommend using the Spider 2.0 Gold SQL we released for fine-tuning**.
-
-- [spider2-lite-goldSQL](https://github.com/xlang-ai/Spider2/tree/main/spider2-lite/evaluation_suite/gold/sql)
-- [spider2-snow-goldSQL](https://github.com/xlang-ai/Spider2/tree/main/spider2-snow/evaluation_suite/gold/sql)
-
 
 
 ## 🚀 Quickstart
@@ -112,7 +104,8 @@ For more details, please refer to the following links:
 
 
 
-<!-- ## 🚀 Quickstart (Old Version)
+
+## 🚀 Quickstart (Old Version)
 
 
 ### Spider 2.0-Snow
@@ -125,9 +118,9 @@ We adapt [Spider-Agent](https://github.com/xlang-ai/Spider2/tree/main/methods/sp
 
 ### Spider 2.0-Lite
 
-To align with research interests in **traditional Text2SQL settings**, we also release [`Spider 2.0-Lite`](https://github.com/xlang-ai/Spider2/tree/main/spider2-lite#spider-20-lite). This set is more self-contained, with well-prepared database metadata and documentation, making it a text-in, text-out task that supports faster development and evaluation. -->
+To align with research interests in **traditional Text2SQL settings**, we also release [`Spider 2.0-Lite`](https://github.com/xlang-ai/Spider2/tree/main/spider2-lite#spider-20-lite). This set is more self-contained, with well-prepared database metadata and documentation, making it a text-in, text-out task that supports faster development and evaluation.
 
-<!-- You can also access the Spider 2.0-Lite by [huggingface dataset](https://huggingface.co/datasets/xlangai/spider2-lite).🤗
+You can also access the Spider 2.0-Lite by [huggingface dataset](https://huggingface.co/datasets/xlangai/spider2-lite).🤗
 ```
 from datasets import load_dataset
 ds = load_dataset("xlangai/spider2-lite")
@@ -137,19 +130,17 @@ Each file in `spider2-lite.json` contains the following fields:
 - `instance_id`: the unique example id
 - `db`: the database id to which this question is addressed
 - `question`: the natural language question
-- `external_knowledge`: the filenames of external knowledge, documentation, and information required to answer this question are stored in documents -->
+- `external_knowledge`: the filenames of external knowledge, documentation, and information required to answer this question are stored in documents
 
-
-<!-- We adapt [Spider-Agent](https://github.com/xlang-ai/Spider2/tree/main/methods/spider-agent-lite) and other text-to-SQL baselines to this setting. 
 
 We proposed baselines based on the widely used text2sql methods: [`Dail-SQL`](https://github.com/xlang-ai/Spider2/tree/main/spider2-lite/baselines/dailsql#installation) and [`CodeS`](https://github.com/xlang-ai/Spider2/tree/main/spider2-lite/baselines/codes#installation), with evaluation results reported :test_tube:.
- -->
 
 
 
 
 
-<!-- 
+
+
 ### Spider 2.0
 
 For [`Spider 2.0`](./spider2/README.md), all evaluation examples are aggregated in file [`spider2.jsonl`](./spider2/examples/spider2.jsonl), where each data point contains the following field:
@@ -176,7 +167,7 @@ For each instance, we also provide a separate folder [`./spider2/examples/{instr
 The agent has to interact with complex SQL workflows, process extremely long contexts, perform intricate reasoning, and generate multiple SQL queries with diverse operations, often exceeding 100 lines across multiple turns. -->
 
 
-<!-- #### Run Spider-Agent
+#### Run Spider-Agent
 
 For Spider 2.0, we proposed an agent framework [Spider-Agent](https://github.com/xlang-ai/Spider2/tree/main/methods/spider-agent) based on Docker environment. 
 
@@ -217,7 +208,8 @@ python setup.py
 cd ../../methods/spider-agent
 export OPENAI_API_KEY=your_openai_api_key
 python run.py --model gpt-4o -s test1
-``` -->
+```
+
 
 
 
@@ -226,14 +218,14 @@ python run.py --model gpt-4o -s test1
 # 📋 Leaderboard Submission 
 
 We only release the gold answer of about partial examples of Spider 2.0, Spider 2.0-Lite and Spider 2.0-Snow.
-You must follow this [submission guidance](https://docs.google.com/document/d/1sCobAqJZcko-Vl3biOycwvCIR7kTwBPrhsgVfvaX1Fg/edit?usp=sharing) to upload your score to [leaderboard](https://spider2-sql.github.io/).
+You must follow this [submission guidance](https://docs.google.com/document/d/1sCobAqJZcko-Vl3biOycwvCIR7kTwBPrhsgVfvaX1Fg/edit?usp=sharing) to upload your score to leaderboard.
 
 
 # 🙇‍♂️ Acknowledgement
 
 We thank Snowflake for their generous support in hosting the Spider 2.0 Challenge.
 We also thank Tianbao Xie, Yiheng Xu, Fan Zhou, Yuting Lan, Per Jacobsson, Yiming Huang, Canwen Xu, Zhewei Yao, and Binyuan Hui for their helpful feedback on this work.
-The website and submission guidelines are greatly inspired by [BIRD-SQL](https://bird-bench.github.io/), and we thank them for their contributions.
+The leaderboard submission guidelines are greatly inspired by [BIRD-SQL](https://bird-bench.github.io/), and we thank them for their contributions.
 
 <p align="center">
   <img src="assets/Snowflake.png" width="35%">

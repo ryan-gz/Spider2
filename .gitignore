@@ -1,3 +1,14 @@
+**/snowflake_credential.json
+**/bigquery_credential.json
+test_azure_openai.py
+*.json
+*.csv
+*.md
+*.sqlite
+*.sql
+*.log
+*.gitkeep
+methods/spider-agent-lite/output/*
 
 spider2/evaluation_suite/*
 spider2/release_spider2/spider2c.jsonl
